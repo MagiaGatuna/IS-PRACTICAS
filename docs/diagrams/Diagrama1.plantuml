@@ -1,0 +1,7 @@
+@startuml Diagrama1
+' 1. Un teclado tiene por lo menos 105 teclas 
+class Teclado { }
+class Tecla { }
+
+Tecla "105..*" --* "1" Teclado 
+@enduml
