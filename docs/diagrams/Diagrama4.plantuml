@@ -1,0 +1,11 @@
+@startuml Diagrama4
+' 4. Un triángulo es un polígono que está formado por 3 lados 
+    class Triangulo{}
+    class Poligono{}
+    class Lado{}
+
+    Poligono <|-- Triangulo
+    Triangulo *-- Lado
+    Poligono *-- Lado
+    
+@enduml

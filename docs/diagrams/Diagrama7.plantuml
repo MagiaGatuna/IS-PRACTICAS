@@ -1,0 +1,11 @@
+@startuml Diagrama7
+' 7. Una caracterización se fundamenta en al menos un criterio, un elemento clasificado se genera a partir de una caracterización que depende del criterio utilizado. 
+    class Caracterizacion{}
+    class Criterio{}
+    class ElementoClasificado{}
+
+    Criterio "1..*" *-- "1" Caracterizacion
+    Caracterizacion "1" *-- "1" ElementoClasificado
+
+
+@enduml

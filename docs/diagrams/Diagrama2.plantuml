@@ -1,0 +1,10 @@
+@startuml Diagrama2
+' 2. Los estudiantes, los profesores y los empleados son personas
+    class Estudiante {}
+    class Profesor {}
+    class Empleado {}
+
+    Persona <|-- Estudiante
+    Persona <|-- Empleado
+    Empleado <|-- Profesor
+@enduml

@@ -1,0 +1,9 @@
+@startuml Diagrama3
+' 3. Un disco duro está formado por pistas, y las pistas están formadas por sectores 
+    class DiscoDuro { }
+    class Pista { }
+    class Sector { }
+
+    DiscoDuro "1" *-- "1..*" Pista
+    Pista "1" *-- "1..*" Sector
+@enduml

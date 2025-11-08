@@ -1,0 +1,9 @@
+@startuml Diagrama5
+' 5. Un equipo de baseball está formado por jugadores y tienen asignado como homeclub un estadio 
+    class EquipoBaseball{}
+    class Jugador{}
+    class Estadio{}
+    
+    EquipoBaseball "1" o-- "1..*" Jugador
+    Estadio -- EquipoBaseball : homeClub
+@enduml

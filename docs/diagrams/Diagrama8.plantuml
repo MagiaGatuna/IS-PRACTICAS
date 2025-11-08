@@ -1,0 +1,20 @@
+@startuml Diagrama8
+' 8. Un trabajo de grado especial (TEG) y un trabajo de grado de maestría (TGM) son trabajos de investigación. Todo trabajo de investigación es dirigido por uno o a lo sumo dos  profesores que juegan el rol de tutor. Un mismo profesor puede dirigir varios trabajos de  investigación. Un TGM siempre se realiza de manera individual, es decir, un solo  estudiante de postgrado mientras que un TEG puede ser realizado por uno o dos  estudiantes de pregrado.
+    class TrabajoDeInvestigacion {}
+    class TEG{}
+    class TGM{}
+    class Profesor{}
+    class EstudiantePregrado {}
+    class EstudiantePostgrado {}
+    class Estudiante{}
+
+    TrabajoDeInvestigacion <|-- TEG
+    TrabajoDeInvestigacion <|-- TGM
+    Estudiante <|-- EstudiantePregrado
+    Estudiante <|-- EstudiantePostgrado
+    TEG -- "1..2" EstudiantePregrado
+    TGM  --  EstudiantePostgrado
+    Profesor "1..2   " -- "1..*   " TrabajoDeInvestigacion : Dirige
+    Profesor  -- "*" TrabajoDeInvestigacion : "  Evalua"
+
+@enduml

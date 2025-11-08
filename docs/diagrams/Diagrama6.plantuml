@@ -1,0 +1,11 @@
+@startuml Diagrama6
+' 6. Un comité está integrado por dos o más personas. Una persona puede o no pertenecer a comités. Cada comité tiene un coordinador que forma parte del comité y una misma persona puede coordinar más de un comité. 
+    class Comite{}
+    class Persona{}
+    class Coordinador{}
+    
+    Comite "2..*  " o-- "0..*" Persona
+    Comite "  1..*" o-- "1" Coordinador 
+    Persona <|-- Coordinador
+
+@enduml
