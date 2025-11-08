@@ -1,1 +1,1 @@
-![Diagrama1]//www.plantuml.com/plantuml/png/SoWkIImgAStDuL9NCDHJ2CrJA4bDpabCoLSeoKpDIrKeo2zIoCbNo4tDoozMC3GmXKWNAt21o6A54AZYQeLQP14mdml2L0BgqjFJKbBGrTK2SfHWUhWSKlDIW1O30000
+![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=[TU_URL_RAW_DEL_ARCHIVO](https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/refs/heads/main/docs/diagrams/Diagrama1.plantuml))
