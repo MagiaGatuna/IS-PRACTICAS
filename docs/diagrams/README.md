@@ -1,1 +1,8 @@
 ![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama1.plantuml)
+![Diagrama2](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama2.plantuml)
+![Diagrama3](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama3.plantuml)
+![Diagrama4](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama4.plantuml)
+![Diagrama5](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama5.plantuml)
+![Diagrama6](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama6.plantuml)
+![Diagrama7](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama7.plantuml)
+![Diagrama8](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/Diagrama8.plantuml)
