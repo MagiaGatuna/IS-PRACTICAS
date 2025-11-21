@@ -1,15 +1,15 @@
 # Diagramas de Clase
 1. Un teclado tiene por lo menos 105 teclas
 
-![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml?v=1)
+![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml?v=2)
 
 2. Los estudiantes, los profesores y los empleados son personas
 
-![Diagrama2](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama2.plantuml)
+![Diagrama2](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama2.plantuml?v=2)
 
 3. Un disco duro está formado por pistas, y las pistas están formadas por sectores 
 
-![Diagrama3](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama3.plantuml)
+![Diagrama3](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama3.plantuml?v=2)
 
 4. Un triángulo es un polígono que está formado por 3 lados 
 
