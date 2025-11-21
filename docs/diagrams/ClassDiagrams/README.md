@@ -1,7 +1,7 @@
 # Diagramas de Clase
 1. Un teclado tiene por lo menos 105 teclas
 
-![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml)
+![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml?v=1)
 
 2. Los estudiantes, los profesores y los empleados son personas
 
@@ -26,6 +26,8 @@
 7. Una caracterización se fundamenta en al menos un criterio, un elemento clasificado se genera a partir de una caracterización que depende del criterio utilizado. 
 
 ![Diagrama7](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama7.plantuml)
+
+
 
 8. Un trabajo de grado especial (TEG) y un trabajo de grado de maestría (TGM) son trabajos de investigación. Todo trabajo de investigación es dirigido por uno o a lo sumo dos  profesores que juegan el rol de tutor. Un mismo profesor puede dirigir varios trabajos de  investigación. Un TGM siempre se realiza de manera individual, es decir, un solo  estudiante de postgrado mientras que un TEG puede ser realizado por uno o dos  estudiantes de pregrado.
 
