@@ -9,9 +9,9 @@
     TitleFontColor DarkSlateGray
 }
 
-header 
+footer 
     Diagramas de clases UML
-endheader
+endfooter
 
 Title Diagrama 3
     

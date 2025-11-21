@@ -9,10 +9,10 @@
         TitleFontColor DarkSlateGray
     }
 
-    header 
+    footer 
         Diagramas de clases UML
-    endheader
-
+    endfooter
+    
 Title Diagrama 2
     class Persona #lightPink/Khaki{ }    
     class Estudiante #Khaki/gold{}
