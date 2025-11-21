@@ -1,8 +1,23 @@
 @startuml Diagrama3
 ' 3. Un disco duro está formado por pistas, y las pistas están formadas por sectores 
-    class DiscoDuro { }
-    class Pista { }
-    class Sector { }
+    skinparam Title{
+    BorderRoundCorner 15
+    BorderThickness 2
+    fontsize 12
+    BorderColor Palegreen
+    BackgroundColor lightGreen
+    TitleFontColor DarkSlateGray
+}
+
+header 
+    Diagramas de clases UML
+endheader
+
+Title Diagrama 3
+    
+    class DiscoDuro #Gold/YellowGreen{ }
+    class Pista #YellowGreen/PaleGreen{ }
+    class Sector #PaleGreen/LightGreen { }
 
     DiscoDuro "1" *-- "1..*" Pista
     Pista "1" *-- "1..*" Sector

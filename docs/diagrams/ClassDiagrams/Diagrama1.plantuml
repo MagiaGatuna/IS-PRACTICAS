@@ -1,7 +1,22 @@
 @startuml Diagrama1
 ' 1. Un teclado tiene por lo menos 105 teclas 
-class Teclado { }
-class Tecla { }
+skinparam Title{
+    BorderRoundCorner 15
+    BorderThickness 2
+    fontsize 12
+    BorderColor lighSalmon
+    BackgroundColor lightPink
+    TitleFontColor DarkSlateGray
+}
 
-Tecla "105..*" --* "1" Teclado 
+header 
+    Diagramas de clases UML
+endheader
+
+Title Diagrama 1
+
+class Teclado #LightCoral/LightSalmon { }
+class Tecla #LightSalmon/LightPink { }  
+
+Teclado "1" *-- "105..*" Tecla 
 @enduml

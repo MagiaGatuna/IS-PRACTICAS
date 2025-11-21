@@ -1,8 +1,23 @@
 @startuml Diagrama2
 ' 2. Los estudiantes, los profesores y los empleados son personas
-    class Estudiante {}
-    class Profesor {}
-    class Empleado {}
+    skinparam Title{
+        BorderRoundCorner 15
+        BorderThickness 2
+        fontsize 12
+        BorderColor Khaki
+        BackgroundColor lightYellow
+        TitleFontColor DarkSlateGray
+    }
+
+    header 
+        Diagramas de clases UML
+    endheader
+
+Title Diagrama 2
+    class Persona #lightPink/Khaki{ }    
+    class Estudiante #Khaki/gold{}
+    class Profesor #Gold/LightYellow {}
+    class Empleado #Khaki/gold{}
 
     Persona <|-- Estudiante
     Persona <|-- Empleado
