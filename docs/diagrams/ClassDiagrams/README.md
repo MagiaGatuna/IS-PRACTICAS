@@ -1,7 +1,7 @@
 # Diagramas de Clase
 1. Un teclado tiene por lo menos 105 teclas
 
-![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml)
+![Diagrama1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/MagiaGatuna/IS-PRACTICAS/main/docs/diagrams/ClassDiagrams/Diagrama1.plantuml?v=1)
 
 2. Los estudiantes, los profesores y los empleados son personas
 
