@@ -20,3 +20,14 @@ Private static find(Config instance){
   }
   return instance;
 }
+
+
+//codigo 2
+//adapterTurnOn()
+
+public Class CoffeeMakerAdapter implements {
+  private CoffeMaker (Maker = New CoffeeMAker());
+  public void TurnOn(){
+    (Maker.On());
+  }
+}
