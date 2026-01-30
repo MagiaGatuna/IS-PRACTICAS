@@ -1,0 +1,22 @@
+public Class Config{
+  Private db_name;
+  Private db_url;
+  Private db_username;
+  Private db_pasword;
+
+  public StringGetDbname(){
+    return db_name;
+  }
+  public StringSetDbname(String name){
+    return db_name=name;
+  }
+}
+
+Private static find(Config instance){
+  public static Config getInstance String name, String url, String username, Stribg pasword)
+  
+  if(instance==Null){
+    instance = new (name, url, username, pasword)
+  }
+  return instance;
+}
