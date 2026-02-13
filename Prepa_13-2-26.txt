@@ -5,7 +5,7 @@ public Class Combinatorias{
   long FACTORIAL_MAX_VALUE=20;
 
   public lomg factorial(long value){
-    assert 0<=Value <= FACTORIAL_MAX_VALUE;
+    assert 0<=Value && Value <= FACTORIAL_MAX_VALUE;
     lomg acum = 1;
     for (int i=1; i<=Value; i++){
       acum *= i;
@@ -19,15 +19,54 @@ public Class Combinatorias{
 //Los numeros que esten entre 0 y 20 son una clase, me va a retornar el factorial, de lo contrario retornara un error (linea 13). ¿0 es otra clase o no?
 
 -Particiones de equivalencia 
-
+-----------------------------------------------------------------
   | Clase de equivalencia | Valor a probar | Resultado         |
-----------------------------------------------------------------
+-----------------------------------------------------------------
   |    (min,0)            | -3             | 20                | 
   |    (0,20)             | 5              | 120               | 
   |    (20,max)           | 30             | AssertionError    |  
   |                       | min_value      | AssertionError    |  
   |                       | 0              | 1                 | 
   |                       | 20             | 2.43902e+18       | 
+------------------------------------------------------------------
 
+*Caja Blanca 
+
+V(G) = P+1 // 4 caminos en este caso
+
+public boolean aMethod(bool a, bool b, bool c){
+  int ret = 0;
+  if(a&&b){
+    ret=1;
+  }else if(c){
+    ret = 2;
+    return ret;
+  }
+}
+
+                         inicio
+                           | 
+                           v   
+                           1
+                      - /     \ +
+                       v       v 
+                      4 <- - - 2
+                     | \ +       \ +
+                   - |  v         v  
+                     |  5         3 
+                     |  \       / 
+                      \  \     / 
+                        v v  v
+                           F
+
+--------------------------------------
+  |  Camino  |  Entrada  | Salida  |
+--------------------------------------
+  |1,2,3,F   |a=T,b=T,c=?| 1       | 
+  |1,2,4,5,F |a=T,b=F,c=T| 2       | 
+  |1,4,5,F   |a=F,b=T,c=T| 2       |  
+  |1,4,f     |a=F,b=T,c=T| 0       |    
+  |1,2,4,F   |a=T,b=F,c=F| 0       | 
+--------------------------------------
 
 
