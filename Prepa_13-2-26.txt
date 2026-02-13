@@ -1,0 +1,33 @@
+//Practica 8. Pruebas Unitarias
+
+*Caja Negra 
+public Class Combinatorias{
+  long FACTORIAL_MAX_VALUE=20;
+
+  public lomg factorial(long value){
+    assert 0<=Value <= FACTORIAL_MAX_VALUE;
+    lomg acum = 1;
+    for (int i=1; i<=Value; i++){
+      acum *= i;
+      if(acum<0){
+        ??? new AssertionError(); //sorry me traiciono la letra del prepa
+      }
+    }
+  }
+}
+
+//Los numeros que esten entre 0 y 20 son una clase, me va a retornar el factorial, de lo contrario retornara un error (linea 13). ¿0 es otra clase o no?
+
+-Particiones de equivalencia 
+
+  | Clase de equivalencia | Valor a probar | Resultado         |
+----------------------------------------------------------------
+  |    (min,0)            | -3             | 20                | 
+  |    (0,20)             | 5              | 120               | 
+  |    (20,max)           | 30             | AssertionError    |  
+  |                       | min_value      | AssertionError    |  
+  |                       | 0              | 1                 | 
+  |                       | 20             | 2.43902e+18       | 
+
+
+
