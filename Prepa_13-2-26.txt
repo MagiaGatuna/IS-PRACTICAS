@@ -10,7 +10,7 @@ public Class Combinatorias{
     for (int i=1; i<=Value; i++){
       acum *= i;
       if(acum<0){
-        ??? new AssertionError(); //sorry me traiciono la letra del prepa
+        ??? new AssertionError(); 
       }
     }
   }
